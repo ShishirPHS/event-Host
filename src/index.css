@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "sansRegular";
+  src: local("sansation.regular"),
+    url("./fonts/sansation.regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "sansBold";
+  src: local("sansation.bold"),
+    url("./fonts/sansation.bold.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
