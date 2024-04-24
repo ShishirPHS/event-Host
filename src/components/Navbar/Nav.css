@@ -1,0 +1,17 @@
+.navUl li a {
+  padding: 0;
+  margin: 0 20px;
+  background: transparent;
+}
+
+.navUl li a:hover {
+  background: transparent;
+  outline: none;
+  font-weight: 600;
+}
+
+.navUl li a:focus {
+  color: white;
+  background: transparent !important;
+  outline: none;
+}

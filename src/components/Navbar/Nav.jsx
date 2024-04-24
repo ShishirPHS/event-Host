@@ -1,7 +1,6 @@
 import cart from "../../assets/icons/cart.png";
 import profile from "../../assets/icons/userProfile.png";
-
-import React from "react";
+import './Nav.css'
 
 const Nav = () => {
   const navLinks = (
@@ -49,7 +48,7 @@ const Nav = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white navUl"
               >
                 {navLinks}
               </ul>
@@ -85,7 +84,7 @@ const Nav = () => {
             </div>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-white font-sansRegular">
+            <ul className="menu menu-horizontal px-1 text-white font-sansRegular navUl">
               {navLinks}
             </ul>
           </div>
